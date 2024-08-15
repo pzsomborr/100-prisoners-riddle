@@ -1,17 +1,6 @@
-# The Riddle
+# 100 Prisoners Riddle - Java Application
 
-100 prisoners are each given a number from 1 to 100.
+This Java application simulates the famous "100 Prisoners Riddle" to determine the probability of survival based on a specific strategy. The riddle involves 100 prisoners each trying to find their own number in one of 100 boxes. The prisoners can use a strategy to maximize their chances of finding their number, and this application evaluates how often this strategy succeeds when tested over a large number of simulations.
 
-Each prisoner is placed in a separate room, and each room contains a box with all 100 numbers in it.
-
-The prisoners are allowed to view the boxes in the following manner: each prisoner can open up to 50 boxes.
-
-If a prisoner finds their own number in one of the boxes they open, they will be freed.
-
-If every prisoner finds their own number, all the prisoners are freed.
-
-If any prisoner fails to find their own number, all the prisoners are executed.
-
-**The Question**: What strategy should the prisoners use to maximize their chances of survival?
-
+The strategy:
 https://www.youtube.com/watch?v=iSNsgj1OCLA
